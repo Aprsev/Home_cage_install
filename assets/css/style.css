@@ -207,6 +207,17 @@ a:hover { color: var(--accent-hover); }
 }
 .arrow-tip { color: var(--danger); font-weight: bold; }
 
+/* Structure reference image — responsive */
+.structure-img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #2980b9;
+  border-radius: 4px;
+}
+@media (min-width: 641px) {
+  .structure-img { max-width: 500px; }
+}
+
 /* Download Area */
 .download-area {
   background: #e8f5e9;
@@ -249,9 +260,6 @@ a:hover { color: var(--accent-hover); }
   /* Media cards — full width on mobile */
   .media-card { min-width: 100%; }
   .media-card video { max-height: 240px; object-fit: contain; background: #000; }
-
-  /* Force any inline max-width image to scale */
-  .card img[style*="max-width"] { max-width: 100% !important; height: auto; }
 
   /* Steps */
   .step { padding: 12px 0; }
