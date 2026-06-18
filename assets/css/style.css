@@ -1,4 +1,4 @@
-/* ==============================================
+﻿/* ==============================================
    Home Cage Install Guide — Global Stylesheet
    ============================================== */
 
@@ -231,3 +231,4 @@ a:hover { color: var(--accent-hover); }
   .nav-inner a { padding: 10px 12px; font-size: 0.85em; }
   .media-card { min-width: 100%; }
 }
+

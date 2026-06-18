@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Home Cage Install Guide — Main Script
  * GitHub Pages: https://aprsev.github.io/Home_cage_install/
  */
@@ -26,3 +26,4 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
