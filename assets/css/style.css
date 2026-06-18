@@ -19,6 +19,10 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+/* Restore list indentation */
+ul, ol { padding-left: 1.5em; }
+li { margin-bottom: 0.3em; }
+
 body {
   font-family: var(--font);
   line-height: 1.7;
