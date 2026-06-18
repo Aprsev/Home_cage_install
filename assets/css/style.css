@@ -228,11 +228,47 @@ a:hover { color: var(--accent-hover); }
   margin-top: 40px;
 }
 
-/* Responsive */
+/* Responsive — Mobile */
 @media (max-width: 640px) {
-  .header-content h1 { font-size: 1.6em; }
-  .nav-inner { justify-content: center; }
-  .nav-inner a { padding: 10px 12px; font-size: 0.85em; }
+  /* Header */
+  .header-content { padding: 24px 16px; }
+  .header-content h1 { font-size: 1.4em; }
+  .header-content .subtitle { font-size: 0.95em; }
+
+  /* Navigation */
+  .nav-inner { justify-content: center; gap: 0; }
+  .nav-inner a { padding: 10px 10px; font-size: 0.8em; }
+
+  /* Container */
+  .container { padding: 16px 12px; }
+
+  /* Cards */
+  .card { padding: 16px; }
+  .card h2 { font-size: 1.15em; }
+
+  /* Media cards — full width on mobile */
   .media-card { min-width: 100%; }
+  .media-card video { max-height: 240px; object-fit: contain; background: #000; }
+
+  /* Force any inline max-width image to scale */
+  .card img[style*="max-width"] { max-width: 100% !important; height: auto; }
+
+  /* Steps */
+  .step { padding: 12px 0; }
+
+  /* Download area */
+  .download-area { padding: 16px; }
+  .download-area .btn { display: block; margin: 8px auto; max-width: 280px; }
+
+  /* Footer */
+  .site-footer { padding: 16px; font-size: 0.8em; }
+}
+
+/* Responsive — Extra small */
+@media (max-width: 400px) {
+  .header-content h1 { font-size: 1.2em; }
+  .nav-inner a { font-size: 0.72em; padding: 8px 6px; }
+  .container { padding: 12px 8px; }
+  .card { padding: 12px; }
 }
 
